@@ -1,0 +1,12 @@
+[
+    {"attack": "clean"},
+    {"attack": "fgsm", "eps": 8, "bb": 0},
+    {"attack": "pgd", "eps": 8, "bb": 0, "alpha": 2.55, "steps":7},
+    {"attack": "fgsm", "eps": 8, "bb": 0, "target": 1},
+    {"attack": "pgd", "eps": 8, "bb": 0, "target": 1, "alpha": 2.55, "steps":7},
+
+    {"attack": "fgml2", "eps": 128, "bb": 0},
+    {"attack": "pgdl2", "eps": 128, "bb": 0, "alpha": 25, "steps":7},
+    {"attack": "fgml2", "eps": 128, "bb": 0, "target": 1},
+    {"attack": "pgdl2", "eps": 128, "bb": 0, "target": 1, "alpha": 25, "steps":7}
+]
